@@ -4,8 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/img/logo.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon2 from '../assets/img/nav-icon2.svg'
+import navIcon2 from '../assets/img/github.png'
 import navIcon3 from '../assets/img/nav-icon3.svg'
+import Banner from './Banner';
 
 export const NavBar = () => {
 
@@ -72,7 +73,7 @@ export const NavBar = () => {
                 </div>
 
                 <button className='vvd' onClick={() => console.log('connect')}>
-                    <span>Let's Connect</span>
+                    <span>Contactame!</span>
                 </button>
             </span>
             </Navbar.Collapse>
@@ -80,6 +81,3 @@ export const NavBar = () => {
         </Navbar>
     );
 }
-
-
-export default BasicExample;
