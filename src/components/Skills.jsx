@@ -35,7 +35,7 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis in harum quis libero placeat molestias, voluptas doloribus optio consequuntur maiores laboriosam quasi minus perspiciatis corrupti labore qui, quaerat officiis doloremque?</p>
+                            <p>Mis habilidades principales son: Javascript, React JS y Git, aunque también tengo conocimientos de NPM, Tailwind CSS, Boostrap y demás</p>
                             <Carousel 
                                 responsive={responsive} 
                                 infinite={true}
