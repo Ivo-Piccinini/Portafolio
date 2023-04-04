@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import { Col, Container, Row } from "react-bootstrap"
-import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImg from "../assets/img/header-img.svg"
+import headerImg from "../assets/img/astronauta.png"
 
 export const Banner = () => {
 
@@ -51,10 +50,6 @@ export const Banner = () => {
                         </span>
                         <h1>{`Hola! soy Ivo Piccinini, `} <span className="wrap">{text}</span></h1>
                         <p>Soy un estudiante de programación que le encanta estar continuamente aprendiendo cosas nuevas. Me encuentro en busca de mi primer trabajo como desarrollador web, espero que mi portfolio sea de su agrado!</p>
-                        <button onClick={() => console.log('connect')}>
-                            Contactame 
-                            <ArrowRightCircle size={25} />
-                        </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img" />
